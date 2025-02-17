@@ -9,7 +9,7 @@ const Footer = () => {
           Contact Us
         </p>
         <div className="flex justify-center items-center gap-2">
-          <FaPhone /> 877-839-4891 / 967-710-2365
+          <FaPhone /> 877-839-4891
         </div>
       </div>
     </footer>

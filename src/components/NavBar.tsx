@@ -23,7 +23,6 @@ const Navbar = () => {
           <div className="flex items-center space-x-2">
             <FaPhone />
             <span>
-              <a href="tel:+917502593608">[ 750-259-3608 ]</a>
               <a href="tel:+918778394891">[ 877-839-4891 ]</a>
             </span>
           </div>

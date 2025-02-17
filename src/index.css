@@ -17,3 +17,36 @@ h3 {
   font-family: "Lexend Deca", serif;
   font-weight: 500;
 }
+
+/* Clients.css */
+.marquee-container {
+  overflow: hidden; /* Hide overflow content */
+  white-space: nowrap; /* Prevent text from wrapping */
+  width: 100%; /* Set the width of the container */
+}
+
+.marquee-content {
+  display: inline-block;
+  padding-left: 100%; /* Start the content off-screen */
+  animation: marquee 20s linear infinite; /* Apply the marquee animation */
+}
+
+.marquee-content div {
+  margin-right: 40px; /* Add spacing between items */
+  display: inline-block;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%); /* Start from the initial position */
+  }
+  100% {
+    transform: translateX(-100%); /* Move content to the left */
+  }
+}
+
+div::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  background: transparent;
+}
