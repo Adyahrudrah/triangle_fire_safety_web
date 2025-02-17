@@ -9,19 +9,24 @@ const Services = () => {
     <div className="bg-orange-600 py-16 p-4">
       <div className="container mx-auto">
         <h2 className="text-3xl font-bold text-center">Our Services</h2>
-        <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div className="bg-yellow-500 p-6 rounded-lg shadow-lg text-gray-900">
-            <div className="h-[80%]">
-              <h3 className="text-xl font-bold">1</h3>
+        <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-8 relative">
+          <div className="bg-yellow-500 p-6 rounded-lg shadow-lg text-gray-900 relative">
+            <div className="h-[80%] flex justify-center">
+              <h1 className="text-gray-300 text-4xl font-bold absolute -top-5 bg-gray-800 px-20 py-5 rounded-full">
+                1
+              </h1>
               <img src={fireExtImg} alt="" className="drop-shadow-lg h-[90%]" />
             </div>
             <p>
-              Supply, Installation,Refilling&Maintenance of Fire Extinguishers{" "}
+              Supply, Installation, Refilling & Maintenance of Fire
+              Extinguishers{" "}
             </p>
           </div>
-          <div className="bg-yellow-500 p-6 rounded-lg shadow-lg text-gray-900">
-            <div className="h-[80%]">
-              <h3 className="text-xl font-bold">2</h3>
+          <div className="bg-yellow-500 p-6 rounded-lg shadow-lg text-gray-900 relative">
+            <div className="h-[80%] flex justify-center">
+              <h3 className="text-gray-300 text-4xl font-bold absolute -top-5 bg-gray-800 px-20 py-5 rounded-full">
+                2
+              </h3>
               <img
                 src={fireHydrantImg}
                 alt=""
@@ -33,9 +38,11 @@ const Services = () => {
               system{" "}
             </p>
           </div>
-          <div className="bg-yellow-500 p-6 rounded-lg shadow-lg text-gray-900">
-            <div className="h-[80%]">
-              <h3 className="text-xl font-bold">3</h3>
+          <div className="bg-yellow-500 p-6 rounded-lg shadow-lg text-gray-900 relative">
+            <div className="h-[80%] flex justify-center">
+              <h3 className="text-gray-300 text-4xl font-bold absolute -top-5 bg-gray-800 px-20 py-5 rounded-full">
+                3
+              </h3>
               <img
                 src={fireAlarmImg}
                 alt=""
@@ -46,9 +53,11 @@ const Services = () => {
               Design, Supply, Installation & Maintenance of Fire Alarm System
             </p>
           </div>
-          <div className="bg-yellow-500 p-6 rounded-lg shadow-lg text-gray-900">
-            <div className="h-[80%]">
-              <h3 className="text-xl font-bold">4</h3>
+          <div className="bg-yellow-500 p-6 rounded-lg shadow-lg text-gray-900 relative">
+            <div className="h-[80%] flex justify-center">
+              <h3 className="text-gray-300 text-4xl font-bold absolute -top-5 bg-gray-800 px-20 py-5 rounded-full">
+                4
+              </h3>
               <img
                 src={fireSuppressionImg}
                 alt=""
@@ -60,9 +69,11 @@ const Services = () => {
               System
             </p>
           </div>
-          <div className="bg-yellow-500 p-6 rounded-lg shadow-lg text-gray-900">
-            <div className="h-[80%]">
-              <h3 className="text-xl font-bold">5</h3>
+          <div className="bg-yellow-500 p-6 rounded-lg shadow-lg text-gray-900 relative">
+            <div className="h-[80%] flex justify-center">
+              <h3 className="text-gray-300 text-4xl font-bold absolute -top-5 bg-gray-800 px-20 py-5 rounded-full">
+                5
+              </h3>
               <img src={fm200Img} alt="" className="drop-shadow-lg h-[90%]" />
             </div>
             <p>
@@ -70,9 +81,11 @@ const Services = () => {
               Flooding System
             </p>
           </div>
-          <div className="bg-yellow-500 p-6 rounded-lg shadow-lg text-gray-900">
-            <div className="h-[80%]">
-              <h3 className="text-xl font-bold">6</h3>
+          <div className="bg-yellow-500 p-6 rounded-lg shadow-lg text-gray-900 relative">
+            <div className="h-[80%] flex justify-center">
+              <h3 className="text-gray-300 text-4xl font-bold absolute -top-5 bg-gray-800 px-20 py-5 rounded-full">
+                6
+              </h3>
               <img src={accImg} alt="" className="drop-shadow-lg h-[90%]" />
             </div>
             <p>Supply of Accessories for all above Fire Protection System</p>

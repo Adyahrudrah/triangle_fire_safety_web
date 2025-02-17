@@ -13,10 +13,10 @@ const Hero = () => {
           </span>
           ENGINEERING SYSTEMS
         </h1>
-        <p className="mt-4">(FIRE PREVENTION IS OUR INTENTION)</p>
+        <p className="mt-4">( FIRE PREVENTION IS OUR INTENTION )</p>
         <span className="flex justify-center gap-2">
           <FaMapMarkerAlt />
-          No:201,Suryanagar,Kotturpuram,Chennai-600085
+          No:201, Surya Nagar, Kotturpuram, Chennai, Tamil Nadu 600025
         </span>
       </div>
     </div>
