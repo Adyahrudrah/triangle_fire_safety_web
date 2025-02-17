@@ -1,0 +1,16 @@
+.font-500 {
+  font-family: "Lexend Deca", serif;
+  font-weight: 500;
+}
+
+p {
+  font-family: "Jost", serif;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Lexend Deca", serif;
+  font-weight: 500;
+}
