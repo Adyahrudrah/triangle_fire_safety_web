@@ -3,7 +3,8 @@
   font-weight: 500;
 }
 
-p {
+p,
+div > span {
   font-family: "Jost", serif;
   font-weight: 400;
 }

@@ -11,7 +11,7 @@ const Services = () => {
         <h2 className="text-3xl font-bold text-center">Our Services</h2>
         <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="bg-yellow-500 p-6 rounded-lg shadow-lg text-gray-900">
-            <div className="h-[90%]">
+            <div className="h-[80%]">
               <h3 className="text-xl font-bold">1</h3>
               <img src={fireExtImg} alt="" className="drop-shadow-lg h-[90%]" />
             </div>
@@ -20,7 +20,7 @@ const Services = () => {
             </p>
           </div>
           <div className="bg-yellow-500 p-6 rounded-lg shadow-lg text-gray-900">
-            <div className="h-[90%]">
+            <div className="h-[80%]">
               <h3 className="text-xl font-bold">2</h3>
               <img
                 src={fireHydrantImg}
@@ -34,7 +34,7 @@ const Services = () => {
             </p>
           </div>
           <div className="bg-yellow-500 p-6 rounded-lg shadow-lg text-gray-900">
-            <div className="h-[90%]">
+            <div className="h-[80%]">
               <h3 className="text-xl font-bold">3</h3>
               <img
                 src={fireAlarmImg}
@@ -47,7 +47,7 @@ const Services = () => {
             </p>
           </div>
           <div className="bg-yellow-500 p-6 rounded-lg shadow-lg text-gray-900">
-            <div className="h-[90%]">
+            <div className="h-[80%]">
               <h3 className="text-xl font-bold">4</h3>
               <img
                 src={fireSuppressionImg}
@@ -61,7 +61,7 @@ const Services = () => {
             </p>
           </div>
           <div className="bg-yellow-500 p-6 rounded-lg shadow-lg text-gray-900">
-            <div className="h-[90%]">
+            <div className="h-[80%]">
               <h3 className="text-xl font-bold">5</h3>
               <img src={fm200Img} alt="" className="drop-shadow-lg h-[90%]" />
             </div>
@@ -71,7 +71,7 @@ const Services = () => {
             </p>
           </div>
           <div className="bg-yellow-500 p-6 rounded-lg shadow-lg text-gray-900">
-            <div className="h-[90%]">
+            <div className="h-[80%]">
               <h3 className="text-xl font-bold">6</h3>
               <img src={accImg} alt="" className="drop-shadow-lg h-[90%]" />
             </div>

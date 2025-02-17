@@ -2,7 +2,7 @@ import { FaPhone } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-800 text-white p-4">
+    <footer className="bg-gray-800 text-gray-400 p-4">
       <div className="grid grid-cols-1">
         <p className="text-center">
           All ISI Marked Fire Fighting Equipments Installation & Services

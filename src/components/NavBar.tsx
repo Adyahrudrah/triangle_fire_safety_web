@@ -18,15 +18,22 @@ const Navbar = () => {
         <div className="flex flex-col items-start space-x-4 text-gray-400">
           <div className="flex items-center space-x-2">
             <FaUser />
-            <span>Premkumar S</span>
+            <span>PREMKUMAR S</span>
           </div>
           <div className="flex items-center space-x-2">
             <FaPhone />
-            <span>750-259-3608 / 877-839-4891</span>
+            <span>
+              <a href="tel:+917502593608">[ 750-259-3608 ]</a>
+              <a href="tel:+918778394891">[ 877-839-4891 ]</a>
+            </span>
           </div>
           <div className="flex items-center space-x-2">
             <FaEnvelope />
-            <span>triangleengineers.3@gmail.com </span>
+            <span>
+              <a href="mailto:triangleengineers.3@gmail.com">
+                triangleengineers.3@gmail.com
+              </a>
+            </span>
           </div>
         </div>
       </div>
