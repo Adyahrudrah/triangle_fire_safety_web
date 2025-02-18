@@ -29,7 +29,7 @@ const imageClasses =
 const Clients = () => {
   return (
     <div className="marquee-container bg-gray-600">
-      <div className="marquee-content py-4">
+      <div className="marquee-content py-1">
         {clients.map((client) => (
           <div key={client.id}>
             <img

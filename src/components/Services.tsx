@@ -81,18 +81,18 @@ const Services = () => {
         <h2 className="text-3xl font-bold text-center text-white">
           Our Services
         </h2>
-        <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-1">
           {services.map((service) => (
             <div
               key={service.id}
-              className="bg-yellow-500 p-6 rounded-lg shadow-lg text-gray-900 relative"
+              className="bg-yellow-500 p-6 rounded-lg shadow-lg text-gray-900 relative h-[400px]"
             >
               <div className="h-[80%] flex justify-center">
                 <h3 className="text-gray-300 text-4xl font-bold absolute -top-5 bg-gray-800 px-20 py-5 rounded-full">
                   {service.id}
                 </h3>
                 {Array.isArray(service.image) ? (
-                  <div className="flex flex overflow-x-scroll overflow-y-hidden gap-2">
+                  <div className="flex overflow-x-scroll overflow-y-hidden gap-2">
                     {service.image.map((img, index) => (
                       <img
                         key={index}

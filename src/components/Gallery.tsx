@@ -16,12 +16,14 @@ const Gallery: React.FC<GalleryProps> = ({ images }) => {
   const [hoveredId, setHoveredId] = useState<number | null>(null);
 
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-1 p-1">
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-8 gap-1 p-1 bg-gray-600">
       {images.map((image) => (
         <div
           key={image.id}
-          className={`relative overflow-hidden rounded-lg shadow-lg transition-all duration-300 ${
-            hoveredId === image.id ? "absolute scale-125 z-10" : ""
+          className={`relative overflow-hidden shadow-lg transition-all duration-300 ${
+            hoveredId === image.id
+              ? "absolute scale-115 w-full h-full z-10 drop-shadow-xl rounded-sm"
+              : "brightness-55"
           }`}
           onMouseEnter={() => setHoveredId(image.id)}
           onMouseLeave={() => setHoveredId(null)}
@@ -33,7 +35,7 @@ const Gallery: React.FC<GalleryProps> = ({ images }) => {
           <img
             src={image.url}
             alt={image.alt}
-            className="w-full h-full object-cover transform transition-transform duration-300 hover:scale-110"
+            className="w-full h-full object-cover transform transition-transform duration-300"
           />
           <p className="text-white text-lg font-semibold">{image.alt}</p>
         </div>

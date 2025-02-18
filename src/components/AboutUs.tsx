@@ -1,7 +1,7 @@
 const AboutUs = () => {
   return (
-    <div className="grid gap-4 w-full p-4 bg-yellow-500">
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+    <div className="grid gap-1 w-full p-1 bg-yellow-500">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-1">
         <div className="bg-orange-600 p-6 rounded-lg text-gray-900 shadow-lg">
           <p>
             If your business is on fire-risk, you need to check it and search
@@ -28,7 +28,7 @@ const AboutUs = () => {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-1">
         <div className="bg-orange-600 p-6 rounded-lg text-gray-900 shadow-lg">
           <p>
             The company commenced operations recently and it operates all across
