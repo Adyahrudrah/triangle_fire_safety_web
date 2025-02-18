@@ -60,13 +60,15 @@ const App = () => {
   ];
   return (
     <div>
-      <Navbar />
-      <Hero />
-      <AboutUs />
-      <Services />
-      <Clients />
-      <Gallery images={images} />
-      <Footer />
+      <div className="max-h-screen overflow-scroll snap-y snap-mandatory snap-always">
+        <Navbar />
+        <Hero />
+        <AboutUs />
+        <Services />
+        <Clients />
+        <Gallery images={images} />
+        <Footer />
+      </div>
     </div>
   );
 };

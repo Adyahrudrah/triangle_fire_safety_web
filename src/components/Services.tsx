@@ -76,11 +76,9 @@ const services = [
 
 const Services = () => {
   return (
-    <div className="bg-orange-600 py-16 p-4">
+    <div className="bg-orange-600 py-16 p-4 snap-start">
       <div className="container mx-auto">
-        <h2 className="text-3xl font-bold text-center text-white">
-          Our Services
-        </h2>
+        <h2 className="text-3xl font-bold text-center text-white">Services</h2>
         <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-1">
           {services.map((service) => (
             <div

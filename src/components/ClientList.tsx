@@ -24,12 +24,12 @@ const clients = [
 
 // CSS classes for the images
 const imageClasses =
-  "drop-shadow-lg bg-gray-400 min-w-[100px] max-h-[100px] rounded-md shadow-lg";
+  "drop-shadow-lg bg-gray-100 min-w-[100px] max-h-[100px] rounded-md shadow-lg";
 
 const Clients = () => {
   return (
-    <div className="marquee-container bg-gray-600">
-      <div className="marquee-content py-1">
+    <div className="marquee-container bg-gray-600 snap-start">
+      <div className="marquee-content py-1 flex pt-2">
         {clients.map((client) => (
           <div key={client.id}>
             <img
