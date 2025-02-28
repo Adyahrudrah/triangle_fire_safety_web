@@ -78,7 +78,9 @@ const Services = () => {
   return (
     <div className="bg-orange-600 py-16 p-4 snap-start">
       <div className="container mx-auto">
-        <h2 className="text-3xl font-bold text-center text-white">Services</h2>
+        <h1 className="flex p-4 my-10 w-full bg-yellow-500 justify-center text-3xl text-white rounded-2xl">
+          Our Services
+        </h1>
         <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-1">
           {services.map((service) => (
             <div

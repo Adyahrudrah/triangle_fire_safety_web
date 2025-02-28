@@ -28,7 +28,10 @@ const imageClasses =
 
 const Clients = () => {
   return (
-    <div className="marquee-container bg-gray-600 snap-start">
+    <div className="marquee-container bg-orange-600 snap-start">
+      <h1 className="mx-auto p-4 flex w-[90%] my-10 rounded-2xl bg-yellow-500 justify-center text-3xl text-white">
+        Our Clients
+      </h1>
       <div className="marquee-content py-1 flex pt-2">
         {clients.map((client) => (
           <div key={client.id}>
