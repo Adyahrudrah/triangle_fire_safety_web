@@ -24,7 +24,7 @@ const Gallery: React.FC<GalleryProps> = ({ images }) => {
         {images.map((image) => (
           <div
             key={image.id}
-            className={`relative block rounded-2xl m-2 shrink-0 grow-1 shadow-2xl transition-all max-w-xl  h-[200px] duration-600 ${
+            className={`relative block rounded-2xl m-2 shrink-0 grow-1 shadow-2xl transition-all max-w-[95dvw]  h-[200px] duration-600 ${
               hoveredId === image.id
                 ? "absolute z-10 drop-shadow-2xl"
                 : "brightness-100"
